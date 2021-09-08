@@ -1,0 +1,42 @@
+body
+{
+	background-image: url("Img.jpg");
+	color: white;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: rgb(26, 24, 24);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		color: white;
+	}
+
+
+#Player1name , #Player2name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#Num1,#Num2
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+color: black;
+}
+#Player1_score , #Player2_score {
+	font-size: 25px;
+}
